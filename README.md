@@ -1,5 +1,5 @@
 # Budget App Challenge 
-# https://towardsdatascience.com/3-useful-projects-to-learn-python-classes-cf0076c36297
+## https://towardsdatascience.com/3-useful-projects-to-learn-python-classes-cf0076c36297
 
 This repo contains the solution to a coding challenge I was recommended during my time at a bootcamp
 
