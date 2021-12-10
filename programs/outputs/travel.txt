@@ -1,0 +1,4 @@
+************travel************
+initial deposit            400
+Transfer to food          -200
+Total: 200
