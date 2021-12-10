@@ -23,9 +23,10 @@ where `...` represents your directory
 Be sure to confirm the correct location of your python.exe file
 this should be picked up automatically by your IDE
 
-for testing, you need to open your bash terminal to the same directory and
-issue the following commands
+for testing using pytest, be sure to comment out line 165 `app()`. 
+
+You then need to open your bash terminal to the same directory and issue the following commands
 
 `$ python3 -m pytest ../tests/  --cov=.`
 
-
+Any feedback / recommendations appreciated!
