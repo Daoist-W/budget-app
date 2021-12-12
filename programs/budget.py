@@ -26,7 +26,7 @@ class Category:
 
     def transfer (self, amount, category):
         # balance check
-        if self.currentBalance <= 0:
+        if amount > self.currentBalance:
             return False
         self.withdraw(amount, f"Transfer to {category.category}")
         category.deposit(amount, f"Transfer from {self.category}")
