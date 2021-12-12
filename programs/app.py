@@ -1,4 +1,4 @@
-import budget
+from programs import budget
 
 
 def app (list_of_commands=None):
@@ -163,4 +163,4 @@ def app (list_of_commands=None):
     return database
 
 # should be commented out unless manual testing
-app ()
+# app ()

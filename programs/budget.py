@@ -78,7 +78,7 @@ class Category:
         totals_row = self.currentBalance
 
         # append all to file
-        file = open(f"outputs/{self.category}.txt", "w")
+        file = open(f"programs/outputs/{self.category}.txt", "w")
         lines = [title + "\n", items_list, f"Total: {totals_row}"]
         for item in lines:
             file.write(item)
